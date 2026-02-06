@@ -3,7 +3,7 @@
 ## Challenge Overview
 
 **Challenge Name:** travelplaylist 
-**Vulnerability Type:** LFI / Bad param parsing
+**Vulnerability Type:** path traversal
 **Difficulty:** Medium  
 
 ## Step 1 : Analyzing :
@@ -14,7 +14,7 @@ Here is the vulner api endpoint parm
 
 ## Step 2 : I Switch from burp to curl, to tries fast:
 
-and i make sure that is lfi :
+and i make sure that is path traversal :
 
 ![api_pic](./imgs/successlfi.png)
 
